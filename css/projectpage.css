@@ -1,0 +1,48 @@
+#projectcontainer {
+	width: 70%;
+	margin: 100px auto;
+}
+
+img {
+	width: 100%;
+}
+
+/* nav bar */
+#navcontainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	/*flex-box*/ 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 20px;
+} 
+
+.item {
+	padding: 0 15px;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration:none;
+	color: #333333;
+}
+
+a:hover {
+	color: #F9C0DC;
+}
+
+li { 
+	list-style: none;
+}
+
+body{
+	margin:0;
+	background: #FCFAF9;
+	font-family: 'Nunito', sans-serif;
+}

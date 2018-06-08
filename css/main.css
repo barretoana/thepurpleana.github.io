@@ -58,7 +58,7 @@ main {
 }
 
 #header {
-	background-image: url(/images/background1.jpg);
+	background-image: url('/images/background1.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -148,7 +148,7 @@ h1 {
 
 /*--- page: portfolio ----*/ 
 #small-header {
-	background-image: url(/images/background2.jpg);
+	background-image: url('/images/background2.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;

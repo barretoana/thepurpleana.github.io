@@ -1,4 +1,5 @@
 
+
 /*first letter*/
 .larger {
 	font-size: 130%; 
@@ -27,7 +28,7 @@ li {
 }
 
 /* nav bar */
-#container {
+#navcontainer {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -58,7 +59,7 @@ main {
 }
 
 #header {
-	background-image: url('/images/background1.jpg');
+	background-image: url(images/background1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -148,7 +149,7 @@ h1 {
 
 /*--- page: portfolio ----*/ 
 #small-header {
-	background-image: url('/images/background2.jpg');
+	background-image: url(images/background2.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -178,20 +179,25 @@ h1 {
 	margin-left: -70px;
 }
 
-.project .hidden{
+.project .hidden {
 	display: none;
 	color: #333333;
 	text-transform: uppercase;
-	position: relative;
-	bottom: 70% ;
+
 }
 
 .project p {
+	position: relative;
+	bottom: 70% ;
 	padding: 5px;
 	font-style: italic;
-	font-size: 4em;
+	font-size: 5vw;
 }
 .project ul{ 
+	position: relative;
+	bottom: 70%;
+	padding: 5px;
+
 	display: inline-flex;
 
  }
@@ -211,3 +217,18 @@ h1 {
 	height: 100%;
 	background-color: 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

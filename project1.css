@@ -1,0 +1,39 @@
+
+<html>
+  <head>
+    <title>The Purple Ana - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli|Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="/css/projectpage.css" type="text/css">
+    <meta charset="utf-8">
+    
+  </head>
+  <body>
+
+  <nav>
+    <ul id="navcontainer"> 
+      <li class="item"><a href="/index.html"> &larr; Back to Main Page</a></li>
+    </ul>
+  </nav> 
+
+
+  <main id="projectcontainer">
+    <img src="/images/1_main.png">
+    <h1> STAND OUT </h1>
+    <h2> Burning man identity and social media</h2>
+
+    <img src="/images/1_second.gif">
+
+    <p>Lorem ipsum dolor sit amet, nam cu dicta facete repudiare. Quo ad partem timeam malorum, at semper feugait per. Duo at reque officiis, mea et quod aliquam, mel nostrud bonorum ne. Cu graecis vivendo percipitur vix, atomorum rationibus consectetuer in eos. </p>
+
+    <img src="/images/1_middle.png">
+
+    <p>Modus tacimates molestiae sea ne, diceret convenire vel ei, pro epicurei splendide et. Elit prompta epicuri an his. Eam mollis tamquam ex, viris alterum nam ut. Ei nam sale ocurreret, sumo definitionem ne duo. Vel euripidis mnesarchum voluptatum ut, sea erat aliquid albucius et, nam eu audiam efficiendi.</p>
+
+    <img src="/images/1_last.gif">
+
+    <p>Dicat tibique necessitatibus sit at, id nec unum elit minim. Et viris maiorum qualisque vix, an aeterno facilisis vis. Te quaeque quaerendum cum, ius efficiantur reprehendunt id, alii vide necessitatibus vis an. Ei pri tota lobortis conceptam, per ullum sanctus id. Graecis omittantur ei vel, quot delenit persecuti an his, summo choro noster ad mea. At magna regione inermis eos.</p>
+
+
+  </main>
+  </body>
+</html>

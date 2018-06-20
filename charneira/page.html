@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Charneira 2017 </title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+
+	<header id="header">
+		<img id="header-img" src="http://charneira.com.br/application/2017/assets/images/logo-charneira.png">
+		<h1 id="title" class="hidden"> Charneira 2017</h1>
+
+		<nav id="nav-bar"> 
+			<ul id="container">
+				<li> <a class="nav-link" href="#header"> home </a></li>
+				<li> <a class="nav-link" href="#event-info">conheça </a></li>
+				<li> <a class="nav-link" href="#papers-submission">participe </a></li>
+				<li> <form id="form" action="https://www.freecodecamp.com/email-submit">
+					<label for="email"> Login: </label>
+					<input name="email" id="email" type="email" placeholder="Digite seu e-mail" required>
+					<input class="btn" name="submit" id="submit" type="submit" value="Entrar">
+					</form>
+				</li> 
+			</ul>
+		</nav>
+
+	</header> 
+
+	
+
+	<main>
+
+		<section id="event-info">
+			<h2 class="hidden">O evento </h2>
+			<div id="about">
+			</div>
+			<!--
+			<div id="graph"> 
+				<p class="anchor" >  </br><span class="highlight"> átomo </span> </p>
+				<p class="coordinate" id="pos2"> Uma <span class="highlight">partícula </span>  </span></p>
+				<p class="coordinate" id="pos3"> Conectados formamos os <br><span class="highlight">elementos essenciais</span></br> </p>
+				<p class="coordinate" id="pos4"> Transitamos do <span class="highlight"></span>  <span class="highlight"></span></p> 
+				<p class="coordinate" id="pos5"> Do elementar<br> </p>
+			</div>-->
+
+			
+
+			<div id="graph"> 
+				<div class="anchor" id="pos1"> 
+					<p> Cada um de nós é um </p>
+					<p class="highlight"> átomo </p>
+				</div>
+
+				<div class="anchor" id="pos2"> 
+					<p> Uma </p>
+					<p class="highlight"> partícula </p>
+					<p>que tem seu posicionamento e contribui com o </p>
+					<p  class="highlight">todo</p>
+				</div>
+
+				<div class="anchor" id="pos3"> 
+					<p> Conectados formamos os </p>
+					<p class="highlight"> elementos essenciais </p>
+					<p>do design</p>
+				</div>
+
+				<div class="anchor" id="pos4"> 
+					<p> Transitamos do </p>
+					<p class="highlight"> pessoal </p>
+					<p>ao</p>
+					<p  class="highlight">coletivo</p>
+				</div>
+
+				<div class="anchor" id="pos5">
+					<p class="highlight"> Do elementar </p>
+					<p class="highlight"> ao multiverso  </p>
+				</div>
+
+				<div class="anchor" id="pos6">
+						<p class="highlight"> 17 a 25 de Setembro </p>
+						<p class="highlight"> PUCPR </p>
+				</div>
+
+			</div>
+		
+		</section>
+	</main>
+
+
+	
+		<section id="papers-submission">
+			
+			<form id="survey-form">
+				<h2> Participe </h2> 
+				<p id="description">Inscreva sua palestra ou workshop</p>
+				<div id="form-container">
+					<div id="about-you">
+						<h3> Sobre Você </h3>
+						<label class="item" id="name-label" for="name"> Nome </label>
+						<input class="field" id="name" type="text" placeholder="Digite seu nome completo" required>
+						<label class="item" id="email-label" for="email"> Email </label>
+						<input class="field" id="email" type="email" placeholder="Digite seu e-mail" required>
+						<label class="item" id="number-label" for="number"> CPF </label>
+						<input class="field" id="number" type="number" min="10" max="100000" placeholder="Digite seu CPF" required>
+						<label class="item">Bio</label>
+						<textarea class="field" placeholder="Conte-nos um pouco sobre seus projetos."></textarea>
+						<label class="item">Comentários adicionais</label>
+						<textarea class="field"></textarea>
+					</div>
+					<div id="about-content">
+						<h3> Conteúdo </h3> 
+						<label class="item" for="submission-title"> Título </label>
+						<input class="field" id="submission-title" type="text" placeholder="Título" required>
+						<label class="item"> Tipo </label>
+						<div class="item"> 
+								<label><input type="radio" name="content-type" value="palestra">Palestra</label>
+								<label><input type="radio" name="content-type" value="workshop">Workshop</label>
+						</div>
+						
+						<label class="item" >Resumo</label>
+						<textarea class="field" placeholder="Conte-nos resumidamente sobre o que será sua palestra. Esse texto será usado para divulgação."></textarea>
+						<label class="item">Estrutura necessária</label>
+						<textarea class="field" placeholder="Computadores, projetores, papéis, canetas"></textarea>
+						
+						<label class="item"> Turno </label>
+						<div class="item"> 
+							<label><input type="checkbox" name="period" value="morning">Manhã</label>
+							<label><input type="checkbox" name="period" value="afternoon">Tarde</label>
+							<label><input type="checkbox" name="period" value="night">Noite</label>
+						</div>
+						<label class="item" for="field"> Área </label>
+						<select class="field" id="dropdown" name="Categoria">
+							<option value="digital">Design Digital</option>
+							<option value="produto">Design de Produto</option>
+							<option value="universal">Design Universal</option>
+							<option value="open">Open Design</option>
+						</select>
+					</div>
+				</div>
+				<button class="item" id="submit"> Enviar </button>
+				</form>
+			
+
+		</section> 
+
+		<section id="promo-video">
+			<div> 
+				<h2>Edições passadas </h2>  
+				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yr3YczGCDXg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</section>
+
+
+	<footer>
+		<p> Charneira 2017 - Do Elementar ao Multiverso</p>
+	</footer>
+
+
+</body>
+</html>
